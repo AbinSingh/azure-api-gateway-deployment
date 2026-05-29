@@ -218,6 +218,9 @@ Option 1 — BEST FOR YOU NOW (Hosts File)
     
     Save file.
 
+###############################
+############ Docker ###########
+###############################
 
 # Can you explain me the meaning of COPY ./app ./app in the dockerfile?
     WORKDIR /app - set current working directory inside container to: /app
@@ -265,6 +268,10 @@ Option 1 — BEST FOR YOU NOW (Hosts File)
     ├── requirements.txt
     └── app/
         └── main.py
+
+###############################
+###### Port Forwarding ########
+###############################
 
 # Below worked (Port forwarding):
 
